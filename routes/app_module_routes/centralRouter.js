@@ -32,10 +32,8 @@ router.route('/centrals/:id')
     message: 'TODO get an existing post by using param ' + req.param.id
   });
 })
-
 .delete(function(req, res) {
   return res.send({
     message: 'TODO delete an existing post by using param ' + req.param.id
   })
 });
-module.exports = router;

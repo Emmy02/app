@@ -8,7 +8,7 @@ var session   = require('express-session');
 var passport  = require('passport');
 
 // initialize mongoose schemas
-require('./models/models');
+// require('./models/models');
 
 var api = require('./routes/api');
 var app = express();
@@ -36,8 +36,8 @@ app.use(function(req, res, next) {
 
 
 // Initialize Passport
-var initPassport = require('./passport-init');
-initPassport(passport);
+// var initPassport = require('./passport-init');
+// initPassport(passport);
 // error handlers
 
 
@@ -62,6 +62,5 @@ app.use(function(err, req, res, next) {
     error: {}
   });
 });
-
 
 module.exports = app;
