@@ -23,7 +23,7 @@ router.route('/centrals/:id')
 //create
 .put(function(req, res) {
   return res.send({
-    message: 'Updating' + req.param.id
+    message: 'Updating' + req.param
   });
 })
 
