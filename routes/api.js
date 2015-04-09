@@ -6,7 +6,7 @@ var central      = require ('./app_module_routes/centralRouter');
 // var chat = require ('./app_module_routes/chatRouter');
 var location     = require ('./app_module_routes/locationRouter');
 var plansBI      = require ('./app_module_routes/plansBIRouter');
-var subscription = require ('./app_module_routes/subscriptionRouter');
+var subscription = require ('./app_module_routes/subscriptionPlanRouter');
 var taxi         = require ('./app_module_routes/taxiRouter');
 // var mongoose = require( 'mongoose' );
 
