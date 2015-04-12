@@ -23,17 +23,17 @@ router.route('/subscriptionsplan/:id/plansbi/:id')
 //create
 .put(function(req, res) {
   return res.send({
-    message: 'Updating' + req.param.id
+    message: 'Updating' + req.params.id
   });
 })
 
 .get(function(req, res) {
   return res.send({
-    message: 'TODO get an existing post by using param ' + req.param.id
+    message: 'TODO get an existing post by using params ' + req.params.id
   });
 })
 .delete(function(req, res) {
   return res.send({
-    message: 'TODO delete an existing post by using param ' + req.param.id
+    message: 'TODO delete an existing post by using params ' + req.params.id
   })
 });

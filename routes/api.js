@@ -17,7 +17,7 @@ function isAuthenticated (req, res, next) {
   // request and response objects
 
   //allow all get request methods
-  if ( req.method === "GET") {
+  if ( req.method === "GET" ) {
     return next();
   }
   if (req.isAuthenticated()) {
