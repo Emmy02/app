@@ -1,3 +1,5 @@
+var PlansBI = mongoose.model('PlansBI');
+
 router.route('/subscriptionsplan/:id/plansbi')
 
 //create a new post

@@ -1,3 +1,4 @@
+var mongoose = require('mongoose');
 module.exports = new mongoose.Schema({
   centrals_num : Number,
   bases_num: Number,

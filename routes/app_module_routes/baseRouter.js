@@ -1,3 +1,5 @@
+var Base = mongoose.model('Base');
+
 router.route('/centrals/:id/bases')
 
 //create a new post

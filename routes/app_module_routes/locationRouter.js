@@ -1,3 +1,5 @@
+var Location = mongoose.model('Location');
+
 router.route('/centrals/:id/bases/:id/taxis/:id/locations')
 
 //create a new post

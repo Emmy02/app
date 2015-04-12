@@ -1,3 +1,4 @@
+var mongoose = require('mongoose');
 module.exports = new mongoose.Schema({
   taxi_id : String,
   lat: String,

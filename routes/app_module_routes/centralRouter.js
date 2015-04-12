@@ -1,3 +1,5 @@
+var Central = mongoose.model('Central');
+
 router.route('/centrals')
 
 //create a new post

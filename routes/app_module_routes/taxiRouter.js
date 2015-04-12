@@ -1,3 +1,5 @@
+var Taxi = mongoose.model('Taxi');
+
 router.route('/centrals/:id/bases/:id/taxis')
 
 //create a new post

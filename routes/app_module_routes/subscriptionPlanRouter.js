@@ -1,3 +1,5 @@
+var SubscriptionPlan = mongoose.model('SubscriptionPlan');
+
 router.route('/subscriptionsplan')
 
 //create a new post

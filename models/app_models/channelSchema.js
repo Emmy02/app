@@ -1,3 +1,5 @@
+var mongoose = require('mongoose');
+
 module.exports = new mongoose.Schema({
   chat_id : String,
   driver_id1 : String,

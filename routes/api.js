@@ -1,5 +1,6 @@
 var express      = require('express');
 router           = express.Router();
+mongoose = require( 'mongoose' );
 var base         = require ('./app_module_routes/baseRouter');
 var central      = require ('./app_module_routes/centralRouter');
 // var channel = require ('./app_module_routes/channelRouter');
@@ -8,7 +9,7 @@ var location     = require ('./app_module_routes/locationRouter');
 var plansBI      = require ('./app_module_routes/plansBIRouter');
 var subscription = require ('./app_module_routes/subscriptionPlanRouter');
 var taxi         = require ('./app_module_routes/taxiRouter');
-// var mongoose = require( 'mongoose' );
+
 
 //Used for routes that must be authenticated.
 function isAuthenticated (req, res, next) {
